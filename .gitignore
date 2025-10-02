@@ -1,0 +1,24 @@
+# ------------------------------------
+# 1. Python & Virtual Environment
+# ------------------------------------
+__pycache__/
+*.pyc
+*.pyd
+*.so
+venv/
+.venv/
+
+# ------------------------------------
+# 2. IDE and OS Files
+# ------------------------------------
+.DS_Store             # Mac OS file
+Thumbs.db             # Windows file
+.vscode/              # VS Code settings
+.idea/                # PyCharm settings
+
+# ------------------------------------
+# 3. Jupyter Notebooks & Data
+# ------------------------------------
+.ipynb_checkpoints    # Jupyter auto-save checkpoints (CRITICAL)
+*~                    # Backup files
+.env                  # Local environment variables (Security)
